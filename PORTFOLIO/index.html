@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="no index">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="title" class="hide">
+
+        </div>
+
+        <div class="topnav" id="myTopnav" class="hide">
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="portoflio.html">About</a>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Tema 1
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="content"><a href="01.04.02.html">01.04.02</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Tema 2
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="content"><a href="02.01.01.html">02.01.01</a>
+                    </div>
+                    <div class="content"><a href="02.02.01.html">02.02.01</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Tema 3
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+
+                    <div class="content"><a href="03.03.03.html">03.03.03</a>
+                    </div>
+                    <div class="content"><a href="03.05.01.html">03.05.01</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Tema 4
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="content"><a href="04.02.01.html">04.02.01</a>
+                    </div>
+                    <div class="content"><a href="04.03.01.html">04.03.01</a>
+                    </div>
+                    <div class="content"><a href="04.04.01.html">04.04.01</a>
+                    </div>
+                    <div class="content"><a href="04.04.02.html">04.04.02</a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+    </header>
+
+
+    <div id="start" class="hide">
+        <div id="play_button">
+            <h2>Portfolio <br> af Camilla Hau Knudsen</h2>
+
+
+
+        </div>
+    </div>
+
+
+    <section id="about">
+
+
+        <div class="sectionwrapperprofil">
+
+            <div class="profilepicture">
+                <img src="aboutsmile.jpg" alt="profilepicture">
+
+            </div>
+
+        </div>
+
+        <div class="sectionwrappercv">
+
+            <a href="cv.html"><img src="cv.jpg" alt="cvbillede"></a>
+
+
+
+        </div>
+
+    </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

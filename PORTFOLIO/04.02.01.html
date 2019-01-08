@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="no index">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="title">
+       
+        </div>
+        <div class="topnav" id="myTopnav">
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="portoflio.html">About</a>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Tema 1
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="content"><a href="01.04.02.html">01.04.02</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Tema 2
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="content"><a href="02.01.01.html">02.01.01</a>
+                    </div>
+                    <div class="content"><a href="02.02.01.html">02.02.01</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Tema 3
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+
+                    <div class="content"><a href="03.03.03.html">03.03.03</a>
+                    </div>
+                    <div class="content"><a href="03.05.01.html">03.05.01</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Tema 4
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="content"><a href="04.02.01.html">04.02.01</a>
+                    </div>
+                    <div class="content"><a href="04.03.01.html">04.03.01</a>
+                    </div>
+                    <div class="content"><a href="04.04.01.html">04.04.01</a>
+                    </div>
+                    <div class="content"><a href="04.04.02.html">04.04.02</a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+    </header>
+
+    <section id="tema4">
+
+        <div class="sectionwrapperblue">
+
+            <div class="kealogo">
+                <img src="04.02/KEA%20LOGO.png" alt="kegalogo">
+            </div>
+
+            <div class="logotekst">
+
+                <p>Torsdag d.6/12 har jeg fået til opgave, at aflevere en ny prototype til et nyt Fronter fremstillet i Adobe XD.
+                    Ifølge mange kilder har fronter brug for, at forbedre sin brugervenlighed. Herunder bliver der snakket om Fronters features, funktionalitet, landig pages mm. Tryk på skemaet herunder, og kom direkte til prototypen.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="sectionwrapperskema">
+
+            <div class="skematekst">
+
+                <h1>Decide</h1>
+
+
+
+                <ul>
+                    <li>”Om 2 år er fronter de studerenes foretrukne værktøj til at understøtte undervisning aktiviteter.”</li>
+                    <li>”Hvordan sikre vi, at de studerende får besked, når der tages beslutninger af undervisere, der har betydning for deres aktiviteter?” </li>
+                    <li>”Hvordan kan vi vise dagens personlige program for de studerende?”
+                    <li>”Hvordan kan vi gøre det nemt, at se de andre studerendes afleveringer/arbejde/online-aktiviteter?”</li>
+                    <li> Samlet er vi kommet frem til, at det vigtigste er, vise dagens personlige program for de studerende.</li>
+                    <li>Forsiden skal bestå af studieretnings skema fra mandag til fredag.</li>
+                    <li>Ved tryk på en tilfældig ugedag, skal baggrunden sløres, og en boks skal tydeliggøres. Denne boks skal indeholde dagens vigtigste aktiviteter. Såsom dagens afleveringer, lektier, noter fra lærerne, direkte links til PowerPoints mm.</li>
+
+                </ul>
+
+
+            </div>
+
+            <div class="container0402">
+
+
+                <img src="04.02/skema.png" alt="skema" class="skemabillede">
+
+                <div class="overlay">
+
+                    <div class="text"><a href="https://xd.adobe.com/view/2b8d57ba-2a77-4f5e-6a9a-df00aa9a74ad-5dbc/?fullscreen">Link Adobe XD</a></div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="sectionwrappermappe">
+
+
+
+            <div class="mappebillede">
+
+                <img src="04.02/mappestruktur.png" alt="mappestruktur">
+
+            </div>
+
+            <div class="mappetekst">
+
+                <ul>
+                    <li>Fronters nuværende mappefordeling er opdelt sådan, at ”mapperne” forsvinder under hinanden når man trykker sig ind på dem. Dette har jeg prøvet at løse med denne funktion.</li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
